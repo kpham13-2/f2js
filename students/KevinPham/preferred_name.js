@@ -1,7 +1,7 @@
 function preferredName (firstName, lastName) {
 	if (!firstName && !lastname || firstName && lastName) {
 		return false;
-	// if (not firstName and not lastName or firstName and lastName)
+	// if (not firstName and not lastName or firstName and lastName), return false
 	}
 	else if (!firstName) {
 		return lastName;
