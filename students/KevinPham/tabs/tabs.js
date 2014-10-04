@@ -7,7 +7,7 @@ $(document).ready(function () {
     var tabNum = 1;
     // Tab selection and Showing/hiding content logic
     $(".tab").click(function () {
-        tabNum = $(this).val();
+	tabNum = $(this).val();
         // Highlight existing tab, unhighlight the rest
         $(".tab").removeClass('tabSelected');
         $(this).addClass('tabSelected');
@@ -16,4 +16,4 @@ $(document).ready(function () {
     });
 });
 
-// JSFIDDLE: http://jsfiddle.net/kpham13/nc1po9om/1/
+// JSFIDDLE: http://jsfiddle.net/kpham13/nc1po9om/2/
