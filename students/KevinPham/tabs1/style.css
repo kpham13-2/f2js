@@ -1,0 +1,101 @@
+body {
+    background-color: #F1F1F1;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.nav {
+    display: block;
+    width: 70%;
+    max-width: 70%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.tab {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #BCD2EE;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: white;
+    color: blue;
+}
+
+.tabSelected {
+    background-color: white;
+    color: blue;
+}
+
+.bodyContainer {
+    height: 460px;
+    width: 600px;
+    border-radius: 8px;
+    border: white 2px solid;
+    margin: 5px auto;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.contentsContainer {
+    height: 100%;
+    width: 500px;
+    margin: auto;
+}
+
+.contentsContainer > div {
+    display: none;
+}
+
+.text {
+    height: 130px;
+    display: block;
+}
+
+.credits {
+    text-align: center;
+    font-size: .7em;
+}
+
+#fosterImg {
+    height: 82px;
+    width: 164px;
+}
+
+#portfolioImg {
+    height: 100px;
+    width: 100px;
+}
+
+#linkedinImg {
+    height: 32px;
+    width: 132px;
+}
