@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    // Hide the contents of a tab if it's not selected
+    // Hide contents of a tab if not selected
     $('.tabsList > li').not('.active').each(function() {
         var hash = $(this).find('a').prop('hash');
         
@@ -15,10 +15,10 @@ $(document).ready(function() {
         // Deselect it
         $previous.closest('li').removeClass('active');
 
-        // Hide the contents
+        // Hide content
         $($previous.prop('hash')).hide();
 
-        // Select the new tab and show it's contents
+        // Select new tab and show contents
         $(this).closest('li').addClass('active');  
         $(this.hash).show();
     });
